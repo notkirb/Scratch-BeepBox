@@ -4,7 +4,11 @@ Scratch-BeepBox is an extension/wrapper for Scratch that allows playback from th
 
 ## Installation
 
-It is relatively simple to use this extension.
+It is relatively simple to use this extension. Simply find the version of scratch you want to use and follow the steps.
+
+### Vanilla Scratch
+
+Vanilla Scratch does not support custom extensions.
 
 ### Turbowarp
 
@@ -19,7 +23,7 @@ Unfortunately, this extension has no way to avoid being **unsandboxed**. This me
 
 ### PenguinMod
 
-> [!CAUTION]
+> [!NOTE]
 > This plugin does not yet have support for PenguinMod.
 
 PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom extensions without restriction.
@@ -51,3 +55,5 @@ PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom exte
 
 ## Credits
 [BeepBox Synthesizer](https://beepbox.co) by [John Nesky](https://johnnesky.com/) and the community
+
+ChatGPT for some of the code
