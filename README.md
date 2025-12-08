@@ -24,7 +24,8 @@ PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom exte
 1. Open PenguinMod and open the extensions pane.
 2. Click on `Load Custom Extension`
 3. Copy and paste [this link](https://raw.githubusercontent.com/notkirb/Scratch-BeepBox/refs/heads/main/extension.js) into the text field.
-4. **Use the extension in your project!**
+4. Tick `Run extension without sandbox`
+5. **Use the extension in your project!**
 
 ### Other custom-plugin-compatible editors
 
