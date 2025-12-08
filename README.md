@@ -24,7 +24,7 @@ Unfortunately, this extension has no way to avoid being **unsandboxed**. This me
 ### PenguinMod
 
 > [!NOTE]
-> This plugin does not yet have support for PenguinMod.
+> This extension does not yet have support for PenguinMod.
 
 PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom extensions without restriction.
 
@@ -47,7 +47,7 @@ PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom exte
 ## To-do
 | Task | Completion |
 |-|-|
-| Integrate BeepBox synth code into extension to allow for offline use | ⚫ Not started |
+| Integrate BeepBox synth code into extension to allow for offline use | 🟡 In progress |
 | Support for BeepBox forks | ⚫ Not started |
 | Use global volume setting | ⚫ Not started |
 | PenguinMod support | ⚫ Not started |
