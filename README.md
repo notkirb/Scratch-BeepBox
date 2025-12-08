@@ -26,7 +26,7 @@ PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom exte
 3. Copy and paste [this link](https://raw.githubusercontent.com/notkirb/Scratch-BeepBox/refs/heads/main/extension.js) into the text field.
 4. **Use the extension in your project!**
 
-### Other custom-plugin-compatible VMs
+### Other custom-plugin-compatible editors
 
 1. Find and open a custom extension prompt.
 2. Copy and paste [this link](https://raw.githubusercontent.com/notkirb/Scratch-BeepBox/refs/heads/main/extension.js) into a custom extension URL field. 
