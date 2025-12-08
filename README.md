@@ -6,7 +6,7 @@ Scratch-BeepBox is an extension/wrapper for Scratch that allows playback from th
 
 It is relatively simple to use this extension.
 
-#### Turbowarp
+### Turbowarp
 
 Unfortunately, this extension has no way to avoid being **unsandboxed**. This means that it is harder to use in Turbowarp. Turbowarp disables the use of unsandboxed plugins to prevent malicious code from running. This means that when a new update to this extension is released, you must follow this process again. To use in Turbowarp, follow these steps:
 
@@ -17,7 +17,7 @@ Unfortunately, this extension has no way to avoid being **unsandboxed**. This me
 5. Open the previously downloaded `extension.js` file
 6. **Use the extension in your project!**
 
-#### PenguinMod
+### PenguinMod
 
 PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom extensions without restriction.
 
@@ -26,7 +26,7 @@ PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom exte
 3. Copy and paste [this link](https://raw.githubusercontent.com/notkirb/Scratch-BeepBox/refs/heads/main/extension.js) into the text field.
 4. **Use the extension in your project!**
 
-#### Other custom-plugin-compatible VMs
+### Other custom-plugin-compatible VMs
 
 1. Find and open a custom extension prompt.
 2. Copy and paste [this link](https://raw.githubusercontent.com/notkirb/Scratch-BeepBox/refs/heads/main/extension.js) into a custom extension URL field. 
