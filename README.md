@@ -1,6 +1,6 @@
 # Scratch-BeepBox
 
-Scratch-BeepBox is an extension/wrapper for Scratch that allows playback from the BeepBox synthesizer via BeepBox's alphanumerical project strings (example: https://beepbox.co/#*`9s8k0l0e00t2a7g0fj16r1i0o1p1175...`*).
+Scratch-BeepBox is an extension/wrapper for Scratch that allows playback from the BeepBox synthesizer via BeepBox's alphanumerical project strings (example: `9s8k0l0e00t2a7g0fj16r1i0o1p1175...`).
 
 ## Installation
 
