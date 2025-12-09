@@ -48,7 +48,7 @@ PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom exte
    ```bash
    $ npm install
    ```
-3. (optional) replace `vendor/beepbox_synth.min.js` with one from a fork of BeepBox (such as JummBox)
+3. (optional) replace `vendor/beepbox_synth.min.js` with one from a fork of BeepBox (such as JummBox). Note that the name of the file cannot change.
 4. Package project
    ```bash
    $ npm run build
