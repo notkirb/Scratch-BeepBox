@@ -1,4 +1,3 @@
-import "./vendor/beepbox_synth.min.js";
 (function (Scratch) {
     "use strict";
 
