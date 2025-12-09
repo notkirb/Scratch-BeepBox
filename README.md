@@ -48,7 +48,7 @@ PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom exte
 | Task | Completion |
 |-|-|
 | Integrate BeepBox synth code into extension to allow for offline use | 🟢 Completed |
-| Support for BeepBox forks | ⚫ Not started |
+| Support for BeepBox forks | 🔴 Not planned |
 | Use global volume setting | ⚫ Not started |
 | PenguinMod support | 🟡 In progress |
 | Branding | ⚫ Not started |
