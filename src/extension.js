@@ -1,3 +1,4 @@
+import "./vendor/beepbox_synth.min.js";
 (function (Scratch) {
     "use strict";
 
@@ -5,31 +6,10 @@
         throw new Error("This extension must be run unsandboxed.");
     }
 
-    // Utility: load external script (BeepBox synth)
-    function loadScript(url) {
-        return new Promise((resolve, reject) => {
-            const script = document.createElement("script");
-            script.src = url;
-            script.onload = resolve;
-            script.onerror = reject;
-            document.head.appendChild(script);
-        });
-    }
-
     class BeepBoxWrapper {
         constructor() {
             this._synth = null;
-            this._synthLoaded = false;
             this._currentData = ""; // track the currently-playing song data
-
-            loadScript("https://cdn.jsdelivr.net/npm/beepbox/global/beepbox_synth.min.js")
-            .then(() => {
-                this._synthLoaded = true;
-                console.log("BeepBox Synth Loaded!");
-            })
-            .catch(e => {
-                console.error("Failed to load BeepBox synth:", e);
-            });
 
             // Stop playback when project stops
             Scratch.vm.runtime.on("PROJECT_STOP_ALL", () => {
@@ -111,10 +91,6 @@
         }
 
         playSong(args) {
-            if (!this._synthLoaded) {
-                console.warn("BeepBox synth not loaded yet.");
-                return;
-            }
 
             const data = args.DATA ?? "";
             this._currentData = data;
