@@ -38,12 +38,22 @@ PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom exte
 
 1. Find and open a custom extension prompt.
 2. Copy and paste [this link](https://raw.githubusercontent.com/notkirb/Scratch-BeepBox/refs/heads/main/extension.js) into a custom extension URL field. 
-## Development
+## Building
 
-1. Fork the repository
-2. Make some changes
-3. Create a pull request
-
+1. Fork and clone the repository
+   ```bash
+   $ git clone https://github.com/notkirb/Scratch-BeepBox.git && cd Scratch-BeepBox
+   ```
+2. Install dependencies
+   ```bash
+   $ npm install
+   ```
+3. (optional) replace `vendor/beepbox_synth.min.js` with one from a fork of BeepBox (such as JummBox)
+4. Package project
+   ```bash
+   $ npm run build
+   ```
+5. Use `dist/extension.js` in your Scratch VM of choice
 ## To-do
 | Task | Completion |
 |-|-|
