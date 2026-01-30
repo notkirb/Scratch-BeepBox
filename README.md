@@ -57,7 +57,7 @@ PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom exte
 | Task | Completion |
 |-|-|
 | Integrate BeepBox synth code into extension to allow for offline use | 🟢 Completed |
-| Support for BeepBox forks | 🔴 Canceled |
+| Support for BeepBox forks | 🔴 Canceled* |
 | Use global volume setting | ⚫ Not started |
 | PenguinMod support | ⚫ Not started |
 | Branding | ⚫ Not started |
@@ -65,4 +65,5 @@ PenguinMod, despite it being a fork of Turbowarp, allows unsandboxed custom exte
 ## Credits
 [BeepBox Synthesizer](https://beepbox.co) by [John Nesky](https://johnnesky.com/) and the community
 
-ChatGPT for some of the code
+## Footnotes
+\* I decided people can fork this project to add support for Beepbox variants, since it will make the codebase significantly larger if we supported more than one variant.
